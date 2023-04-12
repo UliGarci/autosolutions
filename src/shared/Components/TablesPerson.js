@@ -10,7 +10,7 @@ export const TablesPerson = () => {
 
     useEffect(() => {
       const fetchData = async ()=>{
-        const result = await axios('http://34.201.151.124:4000/shop/user');
+        const result = await axios('http://34.201.251.124:5000/shop/user');
         setData(result.data);
         console.log('obtenido=>',result);
         console.log('obtenido 2=>',result.data);
