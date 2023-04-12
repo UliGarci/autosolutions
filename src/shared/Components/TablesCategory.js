@@ -10,7 +10,7 @@ export const TablesCategory = () => {
 
     useEffect(() => {
       const fetchData = async ()=>{
-        const result = await axios('http://34.201.151.124:4000/shop/category');
+        const result = await axios('http://34.201.251.124:5000/shop/category');
         setData(result.data);
         console.log('obtenido=>',result.data);
       };
