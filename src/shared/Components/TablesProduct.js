@@ -8,7 +8,7 @@ export const TablesProduct = () => {
 
     useEffect(() => {
       const fetchData = async ()=>{
-        const result = await axios('http://34.201.251.124:5000/shop/products');
+        const result = await axios('http://52.91.164.191:5000/shop/products');
         setData(result.data);
         console.log('obtenido aq =>',result);
       };
